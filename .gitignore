@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+*.egg
+
+# Go
+/services/ingestion-gateway/ingestion-gateway
+
+# Node / TypeScript
+node_modules/
+services/dashboard-api/dist/
+*.js.map
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Coverage
+htmlcov/
+.coverage
+coverage/
